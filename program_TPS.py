@@ -5,7 +5,7 @@ from PIL import Image
 from streamlit_option_menu import option_menu
 
 with st.sidebar:
-    image = Image.open('Logo.PNG')
+    image = Image.open('Logo.png')
     st.image(image, caption='POLITEKNIK AKA BOGOR')
     selected = option_menu(
         menu_title = "Menu Utama", 
