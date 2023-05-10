@@ -30,7 +30,7 @@ if (selected == 'Deskripsi Website Aplikasi'):
     st.caption('Aplikasi ini digunakan dalam mempermudah perhitungan untuk menentukan titik pengambilan sampel dan banyaknya volume cairan yang diambil pada sampel cairan terkemas. Pengambilan contoh (sampling) adalah mengambil sejumlah atau sebagian bahan atau barang yang dilakukan dengan menggunakan metode tertentu sehingga bagian barang atau bahan yang diambil bersifat mewakili (representatif) terhadap keseluruhan barang atau bahan (populasi). Contoh (sampel) yang mewakili adalah suatu sampel yang diperoleh dengan menggunakan teknik sampling yang sesuai. Menurut SNI 19-0429-1989 tentang pengambilan contoh cairan dan semi padat, populasi dibedakan menjadi bahan cairan/semi padat curah dan bahan cairan/semi padat terkemas. Untuk pengambilan sampel cairan terkemas ini,  Jumlah volume contoh setiap pengambilan harus sama dan seluruh contoh dihomogenkan atau dijadikan satu contoh bahan uji. Apabila contoh dikemas dalam tangki silinder horizontal maka pengambilan contoh ditentukan oleh berapa persen tangki terisi cairan, maka volume perbandingannya itu berpacu pada tabel Penentuan Titik-Titik Pengambilan Contoh Cairan dalam Tangki berdasarkan SNI.')
 
 
-    image = Image.open('tabel.PNG')
+    image = Image.open('tabel.png')
 
     st.image(image, caption='Tabel Penentuan Titik-Titik Pengambilan Contoh Cairan dalam Tangki berdasarkan SNI')
     
